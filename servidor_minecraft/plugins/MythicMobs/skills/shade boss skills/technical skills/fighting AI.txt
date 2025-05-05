@@ -1,4 +1,0 @@
-fightingai:
-  Skills:
-  - threat{a=0} @PlayersInWorld
-  - threat{a=10000} @NearestPlayer
