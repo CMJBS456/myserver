@@ -1,0 +1,29 @@
+headchangeshade:
+  Conditions:
+  - stance{stance=prered} false
+  Skills:
+  - equip{item=shadehead4:4} @self
+  - delay 3
+  - equip{item=shadehead3:4} @self
+  - delay 3
+  - equip{item=shadehead2:4} @self
+  - delay 3
+  - equip{item=shadehead:4} @self
+  - delay 15
+  - equip{item=shadehead2:4} @self
+  - delay 3
+  - equip{item=shadehead3:4} @self
+  - delay 3
+  - equip{item=shadehead4:4} @self
+  - delay 3
+  - equip{item=shadehead5:4} @self
+  - delay 15
+  - skill{s=headchangeshade}
+
+shadedamagedpowerup:
+  Conditions:
+  - stance{stance=powerupshade} true
+  Skills:
+  - equip{item=shadeheadreddamaged:4} @self
+  - delay 4
+  - equip{item=shadeheadred:4} @self

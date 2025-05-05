@@ -1,0 +1,21 @@
+damageshade:
+  Cooldown: 1
+  Conditions:
+  - stance{stance=powerupshade} false
+  - targetwithin{d=2}
+  Skills:
+  - skill{s=damageshadeTick;repeat=2;repeatInterval=2}
+
+damageshadepowerup:
+  Cooldown: 1
+  Conditions:
+  - stance{stance=powerupshade} true
+  - targetwithin{d=2}
+  Skills:
+  - skill{s=damageshadeTick;repeat=4;repeatInterval=2}
+
+damageshadeTick:
+  Skills:
+  - damage{a=2;i=true}
+  - effect:sound{s=entity.elder_guardian.hurt;v=0.3;p=0.7} @self
+  - potion{t=WITHER;d=60;l=0;force=true} @target
