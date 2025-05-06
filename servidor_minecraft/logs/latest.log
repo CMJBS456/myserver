@@ -1,11 +1,15 @@
-[04:55:30] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
-[04:55:30] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[04:55:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:55:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[04:55:31] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
- - Multiverse-Core (4.3.16), MythicMobs (5.8.2-6a2683d7), SkinsRestorer (15.6.2)
-[04:55:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:55:35] [ServerMain/ERROR]: Failed to start the minecraft server
+[06:14:55] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
+[06:14:55] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[06:14:55] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[06:14:55] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/oraxen-1.190.0.jar'...
+[06:14:55] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/MMOItems-6.10.1-SNAPSHOT.jar'...
+[06:14:57] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/MMOItems-6.10.1-SNAPSHOT.jar' in 1427ms.
+[06:14:58] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/oraxen-1.190.0.jar' in 2157ms.
+[06:14:58] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[06:14:58] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
+ - MMOItems (6.10.1-SNAPSHOT), Multiverse-Core (4.3.16), MythicMobs (5.8.2-6a2683d7), Oraxen (1.190.0), SkinsRestorer (15.6.2)
+[06:15:02] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:15:02] [ServerMain/ERROR]: Failed to start the minecraft server
 net.minecraft.util.DirectoryLock$LockException: /workspaces/myserver/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
 	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
 	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
