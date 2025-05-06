@@ -1,119 +1,18 @@
-[04:41:29] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
-[04:41:29] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[04:41:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[04:41:30] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[04:41:30] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[04:55:30] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1026-azure (amd64)
+[04:55:30] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[04:55:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[04:55:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[04:55:31] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - Multiverse-Core (4.3.16), MythicMobs (5.8.2-6a2683d7), SkinsRestorer (15.6.2)
-[04:41:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[04:41:37] [ServerMain/INFO]: Loaded 1337 recipes
-[04:41:37] [ServerMain/INFO]: Loaded 1448 advancements
-[04:41:37] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[04:41:37] [Server thread/INFO]: Loading properties
-[04:41:37] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[04:41:38] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[04:41:38] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[04:41:38] [Server thread/INFO]: Using 4 threads for Netty based IO
-[04:41:39] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[04:41:39] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[04:41:39] [Server thread/INFO]: Default game type: SURVIVAL
-[04:41:39] [Server thread/INFO]: Generating keypair
-[04:41:39] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:41:39] [Server thread/INFO]: Using epoll channel type
-[04:41:39] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[04:41:39] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[04:41:39] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loading 4 libraries... please wait
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
-[04:41:40] [Server thread/INFO]: [SpigotLibraryLoader] [MythicMobs] Loaded library /workspaces/myserver/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[04:41:40] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.16
-[04:41:40] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
-[04:41:40] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.8.2-6a2683d7
-[04:41:40] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[04:41:40] [Server thread/INFO]: [MythicMobs] §x§f§f§0§0§0§0M§x§f§f§6§6§0§0y§x§f§f§c§c§0§0t§x§c§b§f§f§0§0h§x§6§5§f§f§0§0i§x§0§0§f§f§0§0c§x§0§0§f§f§6§6 §x§0§0§f§f§c§bE§x§0§0§c§b§f§fn§x§0§0§6§5§f§fa§x§0§0§0§0§f§fb§x§6§6§0§0§f§fl§x§c§c§0§0§f§fe§x§f§f§0§0§c§cd§x§f§f§0§0§6§6!
-[04:41:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[04:41:40] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
-[04:41:40] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[04:41:41] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
-[04:41:41] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[04:41:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:41:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:41:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:41:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:41:41] [Server thread/INFO]: Preparing level "world"
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[04:41:42] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[04:41:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:41:42] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[04:41:42] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 335.1ms
-[04:41:43] [Server thread/INFO]: Preparing spawn area: 0%
-[04:41:43] [Server thread/INFO]: Preparing spawn area: 0%
-[04:41:43] [Server thread/INFO]: Preparing spawn area: 0%
-[04:41:43] [Server thread/INFO]: Time elapsed: 1361 ms
-[04:41:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[04:41:43] [Server thread/INFO]: Preparing spawn area: 0%
-[04:41:43] [Server thread/INFO]: Time elapsed: 302 ms
-[04:41:43] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[04:41:43] [Server thread/INFO]: Preparing spawn area: 0%
-[04:41:44] [Server thread/INFO]: Time elapsed: 127 ms
-[04:41:44] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.16
-[04:41:44] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.16" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[04:41:44] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[04:41:44] [Server thread/INFO]: Preparing start region for dimension minecraft:shade
-[04:41:44] [Server thread/INFO]: Preparing spawn area: 0%
-[04:41:44] [Server thread/INFO]: Time elapsed: 245 ms
-[04:41:44] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
-[04:41:44] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[04:41:44] [Server thread/INFO]: [Multiverse-Core] Version 4.3.16 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[04:41:44] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.8.2-6a2683d7
-[04:41:44] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.21.3)...
-[04:41:44] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[04:41:46] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/myserver/servidor_minecraft/plugins/MythicMobs/data
-[04:41:46] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/myserver/servidor_minecraft/plugins/MythicMobs/data/worlds
-[04:41:48] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[04:41:49] [Server thread/INFO]: [MythicMobs] Loading Items...
-[04:41:49] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[04:41:49] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[04:41:49] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[04:41:49] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[04:41:49] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[04:41:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 8 mobs.
-[04:41:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[04:41:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[04:41:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 skills.
-[04:41:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[04:41:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 mythic items.
-[04:41:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[04:41:49] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[04:41:49] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[04:41:49] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[04:41:49] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs v5.8.2 ( build 6a2683d7 ) has been successfully loaded!
-[04:41:49] [Server thread/INFO]: [spark] Starting background profiler...
-[04:41:50] [Server thread/INFO]: Done preparing level "world" (8.433s)
-[04:41:50] [Server thread/INFO]: Running delayed init tasks
-[04:41:50] [Server thread/INFO]: Done (21.287s)! For help, type "help"
+[04:55:35] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[04:55:35] [ServerMain/ERROR]: Failed to start the minecraft server
+net.minecraft.util.DirectoryLock$LockException: /workspaces/myserver/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:522) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:428) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at net.minecraft.server.Main.main(Main.java:198) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.3.jar:1.21.3-63-4190ee7]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]

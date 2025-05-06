@@ -140,7 +140,7 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  shade:
+  SHADE:
     ==: MVWorld
     hidden: 'false'
     alias: ''
@@ -175,7 +175,7 @@ worlds:
     spawnLocation:
       ==: MVSpawnLocation
       x: 0.0
-      y: 139.0
+      y: -60.0
       z: 0.0
       pitch: 0.0
       yaw: 0.0
@@ -183,7 +183,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-795283567826172326'
+    seed: '-7206305215131203219'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
